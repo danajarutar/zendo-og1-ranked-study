@@ -1,0 +1,726 @@
+{
+  "schema_version": "2.3.0",
+  "experiment_version": "zendo-og1-ranked-1.0.0",
+  "ruleset_version": "2026-09-28-og1",
+  "session_id": "b6202c4c-fa3e-4b21-84c9-5061d460a55b",
+  "completion_code": "ZEN-1DF3AE5B",
+  "participant_code": "OG1-QA-CHILD",
+  "variant": "child",
+  "language": "sl",
+  "status": "active",
+  "started_at": "2026-09-27T23:56:49.806Z",
+  "completed_at": null,
+  "consent_confirmed_at": "2026-09-27T23:56:49.806Z",
+  "rule_order": [
+    4,
+    1,
+    2,
+    3,
+    5
+  ],
+  "practice_demo": {
+    "rule_id": "practice-exactly-two",
+    "rule_text": "V prizoru sta natanko dva lika.",
+    "started_at": "2026-09-27T23:58:48.299Z",
+    "active_tests": [
+      {
+        "scene_id": "873d67d4-101e-42a5-b642-5f3a4065fa11",
+        "scene_index": 1,
+        "practice_stage": "guided_edit",
+        "transition_index": 0,
+        "anchor_scene_id": "practice-initial",
+        "construction_mode": "edit",
+        "scene": {
+          "objects": [
+            {
+              "id": "practice-initial-a",
+              "colour": "green",
+              "size": "small",
+              "shape": "triangle",
+              "slot": 0
+            }
+          ]
+        },
+        "label": false,
+        "hypothesis_text": "",
+        "operation_prompted": true,
+        "operations_selected": [
+          "other"
+        ],
+        "primary_operation": "other",
+        "other_operation_text": "Vadim gumbe",
+        "action_events": [
+          {
+            "event_type": "anchor_selected",
+            "anchor_scene_id": "practice-initial",
+            "event_id": "9d804ec8-6b01-4d0d-95e1-e88178e84621",
+            "timestamp": "2026-09-27T23:58:51.353Z",
+            "elapsed_ms": 3054
+          },
+          {
+            "event_type": "selection_changed",
+            "object_ids": [
+              "practice-initial-a"
+            ],
+            "before": [],
+            "after": [
+              "practice-initial-a"
+            ],
+            "event_id": "7ade9c91-5e06-46c1-9b9b-cee9f3ed7895",
+            "timestamp": "2026-09-27T23:58:54.916Z",
+            "elapsed_ms": 6617
+          },
+          {
+            "event_type": "feature_changed",
+            "object_ids": [
+              "practice-initial-a"
+            ],
+            "feature": "colour",
+            "before": [
+              {
+                "id": "practice-initial-a",
+                "value": "red"
+              }
+            ],
+            "after": [
+              {
+                "id": "practice-initial-a",
+                "value": "green"
+              }
+            ],
+            "event_id": "79169a49-5e0f-418b-92db-b3ff2398cb77",
+            "timestamp": "2026-09-27T23:58:54.952Z",
+            "elapsed_ms": 6653
+          },
+          {
+            "event_type": "selection_changed",
+            "object_ids": [
+              "practice-initial-a"
+            ],
+            "before": [
+              "practice-initial-a"
+            ],
+            "after": [],
+            "event_id": "e87ae824-068f-414a-84cf-04091d277a58",
+            "timestamp": "2026-09-27T23:58:58.808Z",
+            "elapsed_ms": 10509
+          },
+          {
+            "event_type": "selection_changed",
+            "object_ids": [
+              "practice-initial-b"
+            ],
+            "before": [],
+            "after": [
+              "practice-initial-b"
+            ],
+            "event_id": "9cc2ed2c-4204-4e3c-bfd2-fcc57cafce67",
+            "timestamp": "2026-09-27T23:58:58.837Z",
+            "elapsed_ms": 10538
+          },
+          {
+            "event_type": "objects_removed",
+            "object_ids": [
+              "practice-initial-b"
+            ],
+            "before": [
+              {
+                "id": "practice-initial-b",
+                "colour": "blue",
+                "size": "large",
+                "shape": "circle",
+                "slot": 1
+              }
+            ],
+            "event_id": "6e40b6d7-59e7-4542-b44a-1bd54377a373",
+            "timestamp": "2026-09-27T23:58:58.863Z",
+            "elapsed_ms": 10564
+          }
+        ],
+        "construction_started_at": "2026-09-27T23:58:48.299Z",
+        "report_completed_at": "2026-09-27T23:59:05.322Z",
+        "tested_at": "2026-09-27T23:59:05.322Z",
+        "feedback_shown_at": "2026-09-27T23:59:05.322Z",
+        "construction_duration_ms": 17023,
+        "additional_operations_ranked_text": ""
+      },
+      {
+        "scene_id": "398d22f4-99f6-49ac-86fc-00dabdcb3998",
+        "scene_index": 2,
+        "practice_stage": "guided_fresh",
+        "transition_index": 1,
+        "anchor_scene_id": null,
+        "construction_mode": "fresh",
+        "scene": {
+          "objects": [
+            {
+              "id": "816cbafb-0966-434d-bf18-8fe91556010e",
+              "colour": "red",
+              "size": "medium",
+              "shape": "triangle",
+              "slot": 0
+            },
+            {
+              "id": "164c6011-e215-458d-a142-f0cde28d9956",
+              "colour": "blue",
+              "size": "medium",
+              "shape": "triangle",
+              "slot": 1
+            }
+          ]
+        },
+        "label": true,
+        "hypothesis_text": "",
+        "operation_prompted": true,
+        "operations_selected": [
+          "other"
+        ],
+        "primary_operation": "other",
+        "other_operation_text": "Vadim gumbe",
+        "action_events": [
+          {
+            "event_type": "fresh_started",
+            "anchor_scene_id": null,
+            "event_id": "8721ae91-db69-44bd-8d10-4f05b09d7ed9",
+            "timestamp": "2026-09-27T23:59:16.437Z",
+            "elapsed_ms": 9107
+          },
+          {
+            "event_type": "object_added",
+            "object_ids": [
+              "816cbafb-0966-434d-bf18-8fe91556010e"
+            ],
+            "after": {
+              "id": "816cbafb-0966-434d-bf18-8fe91556010e",
+              "colour": "red",
+              "size": "small",
+              "shape": "circle",
+              "slot": 0
+            },
+            "event_id": "7cc37145-792f-488e-9ff6-8645af6484fa",
+            "timestamp": "2026-09-27T23:59:21.954Z",
+            "elapsed_ms": 14624
+          },
+          {
+            "event_type": "object_added",
+            "object_ids": [
+              "164c6011-e215-458d-a142-f0cde28d9956"
+            ],
+            "after": {
+              "id": "164c6011-e215-458d-a142-f0cde28d9956",
+              "colour": "blue",
+              "size": "large",
+              "shape": "square",
+              "slot": 1
+            },
+            "event_id": "04685ba9-6c49-4079-a57f-974ae7d6e52a",
+            "timestamp": "2026-09-27T23:59:25.794Z",
+            "elapsed_ms": 18464
+          },
+          {
+            "event_type": "selection_changed",
+            "object_ids": [
+              "816cbafb-0966-434d-bf18-8fe91556010e"
+            ],
+            "before": [
+              "164c6011-e215-458d-a142-f0cde28d9956"
+            ],
+            "after": [
+              "164c6011-e215-458d-a142-f0cde28d9956",
+              "816cbafb-0966-434d-bf18-8fe91556010e"
+            ],
+            "event_id": "29ad11dd-d0c8-461a-85c4-4681776cc8da",
+            "timestamp": "2026-09-27T23:59:32.236Z",
+            "elapsed_ms": 24906
+          },
+          {
+            "event_type": "feature_changed",
+            "object_ids": [
+              "164c6011-e215-458d-a142-f0cde28d9956",
+              "816cbafb-0966-434d-bf18-8fe91556010e"
+            ],
+            "feature": "shape",
+            "before": [
+              {
+                "id": "816cbafb-0966-434d-bf18-8fe91556010e",
+                "value": "circle"
+              },
+              {
+                "id": "164c6011-e215-458d-a142-f0cde28d9956",
+                "value": "square"
+              }
+            ],
+            "after": [
+              {
+                "id": "164c6011-e215-458d-a142-f0cde28d9956",
+                "value": "triangle"
+              },
+              {
+                "id": "816cbafb-0966-434d-bf18-8fe91556010e",
+                "value": "triangle"
+              }
+            ],
+            "event_id": "4b1c7fa4-7da1-425a-8f5d-3832f4e835b9",
+            "timestamp": "2026-09-27T23:59:32.267Z",
+            "elapsed_ms": 24937
+          },
+          {
+            "event_type": "feature_changed",
+            "object_ids": [
+              "164c6011-e215-458d-a142-f0cde28d9956",
+              "816cbafb-0966-434d-bf18-8fe91556010e"
+            ],
+            "feature": "size",
+            "before": [
+              {
+                "id": "816cbafb-0966-434d-bf18-8fe91556010e",
+                "value": "small"
+              },
+              {
+                "id": "164c6011-e215-458d-a142-f0cde28d9956",
+                "value": "large"
+              }
+            ],
+            "after": [
+              {
+                "id": "164c6011-e215-458d-a142-f0cde28d9956",
+                "value": "medium"
+              },
+              {
+                "id": "816cbafb-0966-434d-bf18-8fe91556010e",
+                "value": "medium"
+              }
+            ],
+            "event_id": "7107f6c7-3973-444b-af8d-e42dd027341c",
+            "timestamp": "2026-09-27T23:59:32.293Z",
+            "elapsed_ms": 24963
+          }
+        ],
+        "construction_started_at": "2026-09-27T23:59:07.330Z",
+        "report_completed_at": "2026-09-27T23:59:46.596Z",
+        "tested_at": "2026-09-27T23:59:46.596Z",
+        "feedback_shown_at": "2026-09-27T23:59:46.596Z",
+        "construction_duration_ms": 39266,
+        "additional_operations_ranked_text": ""
+      },
+      {
+        "scene_id": "819ab16e-8584-4e1a-9ce0-32444d4d7e08",
+        "scene_index": 3,
+        "practice_stage": "open",
+        "transition_index": 2,
+        "anchor_scene_id": "398d22f4-99f6-49ac-86fc-00dabdcb3998",
+        "construction_mode": "edit",
+        "scene": {
+          "objects": [
+            {
+              "id": "816cbafb-0966-434d-bf18-8fe91556010e",
+              "colour": "green",
+              "size": "medium",
+              "shape": "triangle",
+              "slot": 0
+            },
+            {
+              "id": "164c6011-e215-458d-a142-f0cde28d9956",
+              "colour": "green",
+              "size": "medium",
+              "shape": "triangle",
+              "slot": 1
+            }
+          ]
+        },
+        "label": true,
+        "hypothesis_text": "",
+        "operation_prompted": true,
+        "operations_selected": [
+          "discovery"
+        ],
+        "primary_operation": "discovery",
+        "other_operation_text": "",
+        "action_events": [
+          {
+            "event_type": "anchor_selected",
+            "anchor_scene_id": "398d22f4-99f6-49ac-86fc-00dabdcb3998",
+            "event_id": "82a6de8a-f35b-48da-b010-5a76e79d860b",
+            "timestamp": "2026-09-28T00:00:01.192Z",
+            "elapsed_ms": 12590
+          },
+          {
+            "event_type": "selection_changed",
+            "object_ids": [
+              "816cbafb-0966-434d-bf18-8fe91556010e"
+            ],
+            "before": [],
+            "after": [
+              "816cbafb-0966-434d-bf18-8fe91556010e"
+            ],
+            "event_id": "94efcdd9-9655-410c-a658-a2149acdce64",
+            "timestamp": "2026-09-28T00:00:05.878Z",
+            "elapsed_ms": 17276
+          },
+          {
+            "event_type": "selection_changed",
+            "object_ids": [
+              "164c6011-e215-458d-a142-f0cde28d9956"
+            ],
+            "before": [
+              "816cbafb-0966-434d-bf18-8fe91556010e"
+            ],
+            "after": [
+              "816cbafb-0966-434d-bf18-8fe91556010e",
+              "164c6011-e215-458d-a142-f0cde28d9956"
+            ],
+            "event_id": "a30c8ab0-39e3-4977-b097-aa611b7abed1",
+            "timestamp": "2026-09-28T00:00:05.908Z",
+            "elapsed_ms": 17306
+          },
+          {
+            "event_type": "feature_changed",
+            "object_ids": [
+              "816cbafb-0966-434d-bf18-8fe91556010e",
+              "164c6011-e215-458d-a142-f0cde28d9956"
+            ],
+            "feature": "colour",
+            "before": [
+              {
+                "id": "816cbafb-0966-434d-bf18-8fe91556010e",
+                "value": "red"
+              },
+              {
+                "id": "164c6011-e215-458d-a142-f0cde28d9956",
+                "value": "blue"
+              }
+            ],
+            "after": [
+              {
+                "id": "816cbafb-0966-434d-bf18-8fe91556010e",
+                "value": "green"
+              },
+              {
+                "id": "164c6011-e215-458d-a142-f0cde28d9956",
+                "value": "green"
+              }
+            ],
+            "event_id": "bf87cd54-c9ae-4298-bd48-432c5616e150",
+            "timestamp": "2026-09-28T00:00:05.934Z",
+            "elapsed_ms": 17332
+          }
+        ],
+        "construction_started_at": "2026-09-27T23:59:48.602Z",
+        "report_completed_at": "2026-09-28T00:00:05.988Z",
+        "tested_at": "2026-09-28T00:00:05.988Z",
+        "feedback_shown_at": "2026-09-28T00:00:05.988Z",
+        "construction_duration_ms": 17386,
+        "additional_operations_ranked_text": ""
+      }
+    ],
+    "generalisation_probes": [
+      {
+        "probe_id": "practice-p1",
+        "scene": {
+          "objects": [
+            {
+              "id": "practice-p1-a",
+              "colour": "red",
+              "size": "small",
+              "shape": "triangle",
+              "slot": 0
+            },
+            {
+              "id": "practice-p1-b",
+              "colour": "blue",
+              "size": "large",
+              "shape": "circle",
+              "slot": 1
+            }
+          ]
+        },
+        "true_label": true,
+        "selected": true,
+        "display_position": 0
+      },
+      {
+        "probe_id": "practice-n2",
+        "scene": {
+          "objects": [
+            {
+              "id": "practice-n2-a",
+              "colour": "green",
+              "size": "small",
+              "shape": "square",
+              "slot": 0
+            },
+            {
+              "id": "practice-n2-b",
+              "colour": "red",
+              "size": "large",
+              "shape": "triangle",
+              "slot": 1
+            },
+            {
+              "id": "practice-n2-c",
+              "colour": "blue",
+              "size": "medium",
+              "shape": "circle",
+              "slot": 2
+            }
+          ]
+        },
+        "true_label": false,
+        "selected": false,
+        "display_position": 1
+      },
+      {
+        "probe_id": "practice-p3",
+        "scene": {
+          "objects": [
+            {
+              "id": "practice-p3-a",
+              "colour": "blue",
+              "size": "small",
+              "shape": "square",
+              "slot": 0
+            },
+            {
+              "id": "practice-p3-b",
+              "colour": "green",
+              "size": "large",
+              "shape": "triangle",
+              "slot": 1
+            }
+          ]
+        },
+        "true_label": true,
+        "selected": false,
+        "display_position": 2
+      },
+      {
+        "probe_id": "practice-p2",
+        "scene": {
+          "objects": [
+            {
+              "id": "practice-p2-a",
+              "colour": "green",
+              "size": "medium",
+              "shape": "square",
+              "slot": 0
+            },
+            {
+              "id": "practice-p2-b",
+              "colour": "red",
+              "size": "medium",
+              "shape": "circle",
+              "slot": 1
+            }
+          ]
+        },
+        "true_label": true,
+        "selected": false,
+        "display_position": 3
+      },
+      {
+        "probe_id": "practice-p4",
+        "scene": {
+          "objects": [
+            {
+              "id": "practice-p4-a",
+              "colour": "red",
+              "size": "large",
+              "shape": "circle",
+              "slot": 0
+            },
+            {
+              "id": "practice-p4-b",
+              "colour": "green",
+              "size": "small",
+              "shape": "circle",
+              "slot": 1
+            }
+          ]
+        },
+        "true_label": true,
+        "selected": false,
+        "display_position": 4
+      },
+      {
+        "probe_id": "practice-n3",
+        "scene": {
+          "objects": [
+            {
+              "id": "practice-n3-a",
+              "colour": "red",
+              "size": "small",
+              "shape": "circle",
+              "slot": 0
+            },
+            {
+              "id": "practice-n3-b",
+              "colour": "green",
+              "size": "small",
+              "shape": "square",
+              "slot": 1
+            },
+            {
+              "id": "practice-n3-c",
+              "colour": "blue",
+              "size": "large",
+              "shape": "triangle",
+              "slot": 2
+            },
+            {
+              "id": "practice-n3-d",
+              "colour": "red",
+              "size": "medium",
+              "shape": "square",
+              "slot": 3
+            }
+          ]
+        },
+        "true_label": false,
+        "selected": false,
+        "display_position": 5
+      },
+      {
+        "probe_id": "practice-n4",
+        "scene": {
+          "objects": [
+            {
+              "id": "practice-n4-a",
+              "colour": "green",
+              "size": "large",
+              "shape": "circle",
+              "slot": 0
+            },
+            {
+              "id": "practice-n4-b",
+              "colour": "blue",
+              "size": "small",
+              "shape": "circle",
+              "slot": 1
+            },
+            {
+              "id": "practice-n4-c",
+              "colour": "red",
+              "size": "medium",
+              "shape": "triangle",
+              "slot": 2
+            }
+          ]
+        },
+        "true_label": false,
+        "selected": false,
+        "display_position": 6
+      },
+      {
+        "probe_id": "practice-n1",
+        "scene": {
+          "objects": [
+            {
+              "id": "practice-n1-a",
+              "colour": "blue",
+              "size": "medium",
+              "shape": "triangle",
+              "slot": 0
+            }
+          ]
+        },
+        "true_label": false,
+        "selected": false,
+        "display_position": 7
+      }
+    ],
+    "generalisation_selection_events": [
+      {
+        "probe_id": "practice-p1",
+        "selected": true,
+        "timestamp": "2026-09-28T00:00:40.699Z",
+        "elapsed_ms": 32705
+      }
+    ],
+    "generalisation_started_at": "2026-09-28T00:00:07.994Z",
+    "generalisation_completed_at": "2026-09-28T00:00:40.749Z",
+    "completed_at": "2026-09-28T00:00:40.749Z"
+  },
+  "instruction_comprehension_attempts": [
+    {
+      "attempt": 1,
+      "answers": {
+        "count": true,
+        "size": true,
+        "order": true,
+        "position": true
+      },
+      "correct_count": 2,
+      "passed": false,
+      "timestamp": "2026-09-27T23:58:03.170Z"
+    }
+  ],
+  "comprehension_attempts": [
+    {
+      "attempt": 1,
+      "answers": {
+        "star": true,
+        "demonstration": true,
+        "source": true,
+        "gate": true,
+        "batch": true
+      },
+      "correct_count": 4,
+      "passed": false,
+      "timestamp": "2026-09-28T00:01:03.444Z"
+    }
+  ],
+  "trials": [
+    {
+      "trial_id": "8398ddfb-4b9a-4351-807e-bdc5dd8c9530",
+      "trial_index": 0,
+      "rule_id": 4,
+      "started_at": "2026-09-28T00:01:06.128Z",
+      "ended_at": null,
+      "initial_scene_id": "rule-4-initial",
+      "initial_scene": {
+        "objects": [
+          {
+            "id": "r4-i1",
+            "colour": "blue",
+            "size": "small",
+            "shape": "circle",
+            "slot": 0
+          },
+          {
+            "id": "r4-i2",
+            "colour": "red",
+            "size": "small",
+            "shape": "square",
+            "slot": 1
+          },
+          {
+            "id": "r4-i3",
+            "colour": "red",
+            "size": "large",
+            "shape": "triangle",
+            "slot": 2
+          }
+        ]
+      },
+      "initial_label": true,
+      "baseline_hypothesis": "",
+      "baseline_hypothesis_at": null,
+      "active_tests": [],
+      "generalisation_probes": [],
+      "generalisation_selection_events": [],
+      "generalisation_started_at": null,
+      "generalisation_completed_at": null,
+      "final_rule_guess": "",
+      "final_rule_guess_at": null
+    }
+  ],
+  "demographics": null,
+  "device": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "viewport_width": 373,
+    "viewport_height": 594,
+    "timezone": "Europe/Berlin"
+  },
+  "resume_count": 2,
+  "last_checkpoint_at": "2026-09-28T00:01:06.128Z"
+}

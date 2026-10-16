@@ -1,0 +1,7 @@
+.collection-save-status { position: fixed; bottom: 0; left: 0; right: 0; z-index: 50; display: flex; justify-content: center; align-items: center; gap: 1rem; padding: .6rem 1rem; background: #f2f7ff; border-top: 1px solid #8aa6c7; color: #192d48; font-size: .9rem; }
+.collection-save-status button { border: 1px solid #526881; padding: .3rem .6rem; border-radius: .4rem; background: white; cursor: pointer; }
+body { padding-bottom: 3.5rem; }
+.review-navigation { padding: .7rem 1rem; background: #fff4cf; color: #30260f; border-bottom: 1px solid #b99e50; }
+.review-navigation nav { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin-top: .4rem; }
+.review-navigation a { color: #393254; }
+.review-navigation a[aria-current="page"] { font-weight: bold; }

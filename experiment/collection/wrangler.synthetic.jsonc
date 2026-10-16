@@ -1,0 +1,10 @@
+{
+  "name": "zendo-og1-ranked-collector-synthetic",
+  "main": "server/worker.mjs",
+  "compatibility_date": "2026-05-22",
+  "workers_dev": true,
+  "vars": { "ENVIRONMENT": "synthetic", "ALLOWED_ORIGIN": "https://danajarutar.github.io", "GITHUB_REPOSITORY": "danajarutar/zendo-og1-ranked-responses-synthetic", "ARCHIVE_KEY_ID": "og1-ranked-synthetic-1" },
+  "durable_objects": { "bindings": [{ "name": "COLLECTOR", "class_name": "StudyCollector" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["StudyCollector"] }],
+  "observability": { "enabled": false }
+}

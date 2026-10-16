@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.2.0",
+  "experiment_version": "zendo-simplified-1.6.2",
+  "session_id": "11111111-1111-4111-8111-111111111162",
+  "participant_code": "frozen-legacy",
+  "variant": "adult",
+  "status": "active",
+  "trials": [
+    {
+      "trial_id": "frozen-compatible-trial",
+      "trial_index": 0,
+      "rule_id": 1,
+      "initial_scene_id": "initial-positive",
+      "initial_scene": {
+        "objects": [
+          {
+            "id": "initial-a",
+            "colour": "red",
+            "size": "small",
+            "shape": "triangle",
+            "slot": 0
+          },
+          {
+            "id": "initial-b",
+            "colour": "red",
+            "size": "large",
+            "shape": "square",
+            "slot": 1
+          }
+        ]
+      },
+      "initial_label": true,
+      "active_tests": [
+        {
+          "scene_id": "constructed-0",
+          "scene_index": 2,
+          "transition_index": 0,
+          "anchor_scene_id": null,
+          "construction_mode": "fresh",
+          "scene": {
+            "objects": [
+              {
+                "id": "fresh-a",
+                "colour": "green",
+                "size": "medium",
+                "shape": "circle",
+                "slot": 0
+              }
+            ]
+          },
+          "label": false,
+          "hypothesis_text": "Dva lika sta enake barve.",
+          "operation_prompted": false,
+          "operations_selected": [],
+          "primary_operation": null,
+          "other_operation_text": "",
+          "action_events": [],
+          "additional_operations_ranked_text": ""
+        },
+        {
+          "scene_id": "constructed-1",
+          "scene_index": 3,
+          "transition_index": 1,
+          "anchor_scene_id": "initial-positive",
+          "construction_mode": "edit",
+          "scene": {
+            "objects": [
+              {
+                "id": "initial-a",
+                "colour": "blue",
+                "size": "small",
+                "shape": "triangle",
+                "slot": 0
+              },
+              {
+                "id": "initial-b",
+                "colour": "red",
+                "size": "large",
+                "shape": "square",
+                "slot": 1
+              }
+            ]
+          },
+          "label": false,
+          "hypothesis_text": "Dva lika sta enake barve.",
+          "operation_prompted": true,
+          "operations_selected": [
+            "discovery"
+          ],
+          "primary_operation": "discovery",
+          "other_operation_text": "",
+          "action_events": [],
+          "additional_operations_ranked_text": ""
+        }
+      ],
+      "generalisation_probes": [],
+      "final_rule_guess": "",
+      "final_rule_guess_at": null
+    }
+  ]
+}

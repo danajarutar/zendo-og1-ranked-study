@@ -1,0 +1,354 @@
+{
+  "copied_at": "2026-10-16T13:23:39.265Z",
+  "source": "og-1",
+  "files": [
+    {
+      "path": "og-1/app/adults-english/page.tsx",
+      "sha256": "1a1de92e1f3132cc9bffa8ab0a26c00f3e0aeac4f459d6c9433fea7293b21249"
+    },
+    {
+      "path": "og-1/app/api/checkpoint/route.ts",
+      "sha256": "29b769fa940d6442519149d8aca7fde09241275a9a72457e4e32d4d032ce9000"
+    },
+    {
+      "path": "og-1/app/api/export/route.ts",
+      "sha256": "84461c8a47a50120fac260dd08eb97bb06d6f111630c390eb01a293a4b4ae8c2"
+    },
+    {
+      "path": "og-1/app/chatgpt-auth.ts",
+      "sha256": "e19651c2d1db12696883ae3eb79d4f09dce249f7afa1144a62d544e2e18299ca"
+    },
+    {
+      "path": "og-1/app/children-english/demo/page.tsx",
+      "sha256": "bb9279ea8aa550dfdf2c9ffafaca5c5038fce9b712780ea4df00fec039c64a58"
+    },
+    {
+      "path": "og-1/app/children-english/final-questions/page.tsx",
+      "sha256": "2bcaf2dfd216c7dda3ec657eb94928b75e86e93b0159d225f249289978ba3643"
+    },
+    {
+      "path": "og-1/app/children-english/generalisation/page.tsx",
+      "sha256": "2c0b54ad176ac2a91956d4bfa33982166c2ae99d6fe8dbffe853e854815e898d"
+    },
+    {
+      "path": "og-1/app/children-english/layout.tsx",
+      "sha256": "db9afc3bebcf2a3d1c60475af969fc59ad6374754d6c75ffd5d5fbefe57ea090"
+    },
+    {
+      "path": "og-1/app/children-english/page.tsx",
+      "sha256": "d998343f456c1968579556a25430d5ba9efe7325196c04a14788f6721a996c82"
+    },
+    {
+      "path": "og-1/app/children-english/results/page.tsx",
+      "sha256": "f198a9545af0aa66f72cd3e054eff2c2140e10f8d49f6ef43e4070884665f264"
+    },
+    {
+      "path": "og-1/app/components/OperationIcon.tsx",
+      "sha256": "5648ad4dfa470578e9cf7994c887d668c24fde1b994196f45dae2eccd807a26b"
+    },
+    {
+      "path": "og-1/app/components/ZendoStudy.tsx",
+      "sha256": "b5cdcd725e6d9fa757d80a08923c0eb07cd70291f78a717fcac0c5c6d4ead83b"
+    },
+    {
+      "path": "og-1/app/globals.css",
+      "sha256": "e2e3567e2ea458f97ea90670bf01fbb45e1f875b12ebb8d170888436f47168d1"
+    },
+    {
+      "path": "og-1/app/izvoz/page.tsx",
+      "sha256": "f977f44569a4b7598f12d9a1461bb9202b6b0d4f8cf2390111519df2d1260f23"
+    },
+    {
+      "path": "og-1/app/layout.tsx",
+      "sha256": "d55b705662fe0cb67e66713324a2324276a3e5efac67eb745aa5fdb2fe32b684"
+    },
+    {
+      "path": "og-1/app/lib/checkpoint-contract.ts",
+      "sha256": "bab6d95cd81b49f44d64cc3ed2a34bc5b5c19d9054c56e2aa7bcee0441663914"
+    },
+    {
+      "path": "og-1/app/lib/collection-transport.ts",
+      "sha256": "46af457221567d8f30043976a897d54d5d07b01ca2e6086193a7b568f802e500"
+    },
+    {
+      "path": "og-1/app/lib/experiment.ts",
+      "sha256": "3d3177e3ba1aa76287a989fb63532b4cf71ab505e74efce0082a4c030453df0e"
+    },
+    {
+      "path": "og-1/app/lib/og1-teaching.ts",
+      "sha256": "ebf8f740550cd969fca0a31bd1ece5e2cd5cbc169e3f2bbdce648b6dcd8218e2"
+    },
+    {
+      "path": "og-1/app/lib/session-payload.ts",
+      "sha256": "cfc5a9d131698d901f761792a701366f2f258bbad079549f68388945becb82f3"
+    },
+    {
+      "path": "og-1/app/odrasli/demo/page.tsx",
+      "sha256": "550612d07d94644f4593c2bfd098b5e1ec75f6d27624537b2a0c59ed7dcc0910"
+    },
+    {
+      "path": "og-1/app/odrasli/generalizacija/page.tsx",
+      "sha256": "285cb626a7b0a48d109a44ce4199239eee599715aaeaf3c407bf8839526a901c"
+    },
+    {
+      "path": "og-1/app/odrasli/page.tsx",
+      "sha256": "edb28c31a7b824526c41251efe65403f2bd7528fe1e8f8da6d3612516916303e"
+    },
+    {
+      "path": "og-1/app/odrasli/peto-pravilo/page.tsx",
+      "sha256": "a13c38489c2f739079c458573f915db5f8929dbbe7840d919adf04a739a1cceb"
+    },
+    {
+      "path": "og-1/app/odrasli/rezultati/page.tsx",
+      "sha256": "0232388bcfea885505c8438e120d0cf8c3e51c3ae5c75c5cf42a2fa7e668bb2f"
+    },
+    {
+      "path": "og-1/app/odrasli/zakljucna-vprasanja/page.tsx",
+      "sha256": "a498d02745bfb8e62eeef4464167a3b6d8fa303bbe79301ab683b01d5ac8aefe"
+    },
+    {
+      "path": "og-1/app/otroci/demo/page.tsx",
+      "sha256": "7a6685647ee1dc10523c137568e0310277f0931935be129c8aba1c253fe67d46"
+    },
+    {
+      "path": "og-1/app/otroci/generalizacija/page.tsx",
+      "sha256": "ecb922e2d687cd094b65482d89ecd37f8efb26ca0a8aa4ee0b7efda6f258fd57"
+    },
+    {
+      "path": "og-1/app/otroci/page.tsx",
+      "sha256": "c033311e5da19dd46c0425d04a6a254fc776a99bf13b5118c216949d854b6ef8"
+    },
+    {
+      "path": "og-1/app/otroci/peto-pravilo/page.tsx",
+      "sha256": "c647b96bedcfa030a8f40d06e018d2d2c25e5f2aa100adf5128d444c60d16227"
+    },
+    {
+      "path": "og-1/app/otroci/rezultati/page.tsx",
+      "sha256": "3f711093df7ea8c90e2fcca49759340eb8b93acf9312af289717f3f322e0d5d0"
+    },
+    {
+      "path": "og-1/app/otroci/zakljucna-vprasanja/page.tsx",
+      "sha256": "615766a7097014024809dc76c9b5694f5ab40b21468b417821faba6ffcdaf34f"
+    },
+    {
+      "path": "og-1/app/page.tsx",
+      "sha256": "04a7a8492e1ea912d77ec75800077c9a547ffee58e0c6565623b378d63bf987e"
+    },
+    {
+      "path": "og-1/public/favicon.svg",
+      "sha256": "3e8863288c2d43dd33d2a71de317dcf9198f09932ea8d61e0def1b846a865435"
+    },
+    {
+      "path": "og-1/public/file.svg",
+      "sha256": "81a9ce5ca9bc60870c1d72c0fd5b98b2bc5c8c02b0e04fefeab9efcc11277228"
+    },
+    {
+      "path": "og-1/public/globe.svg",
+      "sha256": "13187c071b4d369df3a7a179f69a927165bf624e1a524ee6c93b7d3be75d6fc8"
+    },
+    {
+      "path": "og-1/public/og.png",
+      "sha256": "e4e69321c6b03b7b5a33f25cee71e627fdfaf227d7f14daeb18130d1836023a1"
+    },
+    {
+      "path": "og-1/public/space-background.webp",
+      "sha256": "1c7f1df360efeddedc01f20e73c3f61d58a602d18dfe55ef94cc8cace18ba8e9"
+    },
+    {
+      "path": "og-1/public/thoughtful-astronaut.png",
+      "sha256": "1f3cd08817698947463d4230199b8929cf6e1b890080bbf324e7179a625d3fec"
+    },
+    {
+      "path": "og-1/public/university-of-primorska-logo.png",
+      "sha256": "d3895cd1f7fff864cbe31755d0cbe7312422a6e3f1d2535df78b01503d0ba492"
+    },
+    {
+      "path": "og-1/public/window.svg",
+      "sha256": "d3cd4bf0c1123258fcc266409856e28c93d4fc1cf8476702225e17842900ca63"
+    },
+    {
+      "path": "og-1/public/zendo-lab-two-platforms.png",
+      "sha256": "5f3f7af07aa118af1a27f652a40f0fd182cbc9ad85e212480e6571811fbe3057"
+    },
+    {
+      "path": "og-1/public/zendo-shapes-intro.png",
+      "sha256": "3c8cf68b5a63af4da7b45909059aa7c831b99dcaede98a9ff72ad30a102b1a8a"
+    },
+    {
+      "path": "og-1/tests/fixtures/og1-browser-practice.json",
+      "sha256": "ea451e6b93660f5849752f97ca9455a661a22c116765e1c155fcf68f9ecab486"
+    },
+    {
+      "path": "og-1/tests/fixtures/zendo-session-1.6.2.json",
+      "sha256": "cf5f988eaa1f012b90c2f568b02e3960e56a86139948a7e463be8b1db1240831"
+    },
+    {
+      "path": "og-1/tests/fixtures/zendo-session-1.7.0.json",
+      "sha256": "c1c42ece03b67aa64d9ea56c0c0f3f3faa9712f8fa972f6c50f2b4ec0c02dd5d"
+    },
+    {
+      "path": "og-1/tests/fixtures/zendo-session-1.8.0.json",
+      "sha256": "52628db32c90f007476a2067c75b02793f421a566978c245a335467af40e293e"
+    },
+    {
+      "path": "og-1/tests/no-large-ruleset.test.mjs",
+      "sha256": "d4a830525a9ccabdf47e247e3569b9dd379c88afd58edeebce973c52c2c53901"
+    },
+    {
+      "path": "og-1/tests/og1-contract.test.mjs",
+      "sha256": "3d664bafed8774c6e421595ae69e0cbbe414264d636ca9f251128a633c6d4a07"
+    },
+    {
+      "path": "og-1/tests/rendered-html.test.mjs",
+      "sha256": "d2c9e6da9034dbd97883f624cd853c51cc7e67420b3498867c182e024d1f68c7"
+    },
+    {
+      "path": "og-1/collection/src/client.mjs",
+      "sha256": "190f57ced0c450fab73769e88ec8de5bae380c7c0849d29f415ae3bbbb91ed81"
+    },
+    {
+      "path": "og-1/collection/src/main.tsx",
+      "sha256": "7a31a62925c6753abdfba4b4003533027aedf747937753d33a630c0225129b61"
+    },
+    {
+      "path": "og-1/collection/src/review.tsx",
+      "sha256": "4ba7744c09e0f24d281f808ed44c60fbf40c6d4ae095d0448cb495dac2d97310"
+    },
+    {
+      "path": "og-1/collection/src/status.css",
+      "sha256": "6cf05907ac87cb4709abf3e3acea40526413090bfa17c89c9e5af77725a58a7a"
+    },
+    {
+      "path": "og-1/collection/server/collector.mjs",
+      "sha256": "1ce42b71b08aa23549e4507006acad64504d075fc900ccbfb92be5dc60ac67b2"
+    },
+    {
+      "path": "og-1/collection/server/crypto.mjs",
+      "sha256": "a1d097ac03b5f9828591c5e89885690967d2e63f074995bd378caa8db329236d"
+    },
+    {
+      "path": "og-1/collection/server/worker.mjs",
+      "sha256": "2df4d6387830447c9bbdcc2d256c04da275703ca3fd2bc1587db7e66bd3f7281"
+    },
+    {
+      "path": "og-1/collection/scripts/build-site.mjs",
+      "sha256": "e425a1aeada12938a18ab9b17a1f3d1a4e9a1a2c3e17f71363158a94f69ebdca"
+    },
+    {
+      "path": "og-1/collection/scripts/export-groups.mjs",
+      "sha256": "ba72713d762c5ce9be521f4b74794fb0f69442d966e57e41455ad04ba0ceb4d9"
+    },
+    {
+      "path": "og-1/collection/scripts/link-sheets.mjs",
+      "sha256": "96ff05d606bd49b14f9df6f42b41910db92de6dfa23802bacfe2fab8d6bd1491"
+    },
+    {
+      "path": "og-1/collection/scripts/migrate-study-data.mjs",
+      "sha256": "f3bbe54c5c37332a0ab907f3079367e7191b058b5e284c06dec74fde2bae5384"
+    },
+    {
+      "path": "og-1/collection/scripts/model-input.mjs",
+      "sha256": "60eb806842dce67df874cf8db6f889fd3d73b15b523a1237528516f3b9677db2"
+    },
+    {
+      "path": "og-1/collection/scripts/provision-production.ps1",
+      "sha256": "7c17198240231480c4dae1dac7dfee2ebddeab71bd59aad7646a320496609ba0"
+    },
+    {
+      "path": "og-1/collection/scripts/publish-site.mjs",
+      "sha256": "4905b9c6be654bad028d069e34fb1d09685b198ef659f0104c7ab62f21e84980"
+    },
+    {
+      "path": "og-1/collection/scripts/recover-github.mjs",
+      "sha256": "bc1f3b529e8ed9dd1dbb076e22858db7561a8a39b66930d82dea1370fee10d2f"
+    },
+    {
+      "path": "og-1/collection/scripts/recover-github.ps1",
+      "sha256": "9a6e69322ed6ee2a853fe2a192b9ce8a50a02450fe3675b318cdbee32b84527d"
+    },
+    {
+      "path": "og-1/collection/scripts/recovery-dialog.ps1",
+      "sha256": "44ac65bb448a0411f4356ddcb9dd3c05e558eaaa90078a8dbebd8749effc0826"
+    },
+    {
+      "path": "og-1/collection/scripts/researcher-tools.ps1",
+      "sha256": "2ffbc27e48b1fb9392fe8f01d54cdae907214718ee102d0603f03df5cf54195e"
+    },
+    {
+      "path": "og-1/collection/scripts/researcher.mjs",
+      "sha256": "6005cd302c9b208b09ab2d682af1f8b7aa72f2abf7722575a3537a628cb9a088"
+    },
+    {
+      "path": "og-1/collection/scripts/study-data.mjs",
+      "sha256": "0629a16fbbe49cb1e27c504d3f53ce0cb7c284da1218cbad4612dcb02fcce83f"
+    },
+    {
+      "path": "og-1/collection/scripts/sync-study-data.mjs",
+      "sha256": "89b6f88a9d0943b1f8854dc70676c7137bd6d2c09eba1c62601268f2f3c43a29"
+    },
+    {
+      "path": "og-1/collection/tests/backup.test.mjs",
+      "sha256": "f8452e19d95ee1683b6dda7fbbd8b2f74b2f7ac07b3dc74f82e88de9f1c130bc"
+    },
+    {
+      "path": "og-1/collection/tests/browser-smoke.mjs",
+      "sha256": "e73715c3ed0e4e9527d36067d66f84fa91c5a8d207d5f0f64ad543b98b42c412"
+    },
+    {
+      "path": "og-1/collection/tests/collection.test.mjs",
+      "sha256": "70a8df66829575afc5d60d702baf5115fdcf3f78b24dc8a9772eea5c5d001f87"
+    },
+    {
+      "path": "og-1/collection/tests/export-groups.test.mjs",
+      "sha256": "3392aa131f39d1144d2e33e8310938ef4cacae2c1f5f2d21de63d46d23d7e703"
+    },
+    {
+      "path": "og-1/collection/tests/feedback-3s-browser-20261016.mjs",
+      "sha256": "181fbf20a47d791452809ebbb0fe1cdca7774abea8acaf1b332a7e9a18258a67"
+    },
+    {
+      "path": "og-1/collection/tests/feedback-3s-publication-20261016.mjs",
+      "sha256": "4bd555a230894d9d557a10f8dde07de44d1f1629d0bfd0c63ddfa7f53d7d4b98"
+    },
+    {
+      "path": "og-1/collection/tests/fixtures.mjs",
+      "sha256": "462f9fc5840ecca8348862fd2040adf84390e4ff1cbcdc1b9b51daa8eb853455"
+    },
+    {
+      "path": "og-1/collection/tests/github-recovery.test.mjs",
+      "sha256": "a74f307bc4d8944f0179ea749a354e4e5f72a79d5f356d585f65722911f603ac"
+    },
+    {
+      "path": "og-1/collection/tests/online-archive-smoke.mjs",
+      "sha256": "92aed12d792c9a6ed9ca9f11a9b09b09fcbff41494373ebeb5e728a231f2c73a"
+    },
+    {
+      "path": "og-1/collection/tests/production-readiness.mjs",
+      "sha256": "a4c791d3cdf37509ef983ac48740ffe62457876408184e05006aa2aea8885f07"
+    },
+    {
+      "path": "og-1/collection/tests/public-assets.mjs",
+      "sha256": "74f020c8a288b76f608e1627f118df9ac728692153271c237ffd94eea3eb6edc"
+    },
+    {
+      "path": "og-1/collection/tests/receiver-smoke.mjs",
+      "sha256": "c1d77ad15ccf5d7ff3be0487bbc811f37330973abe8ebf6eecda49370780495d"
+    },
+    {
+      "path": "og-1/collection/tests/release-browser.mjs",
+      "sha256": "8fa46429f0779e11b839e5cf6e7e28c3b9a8699744d14bec985b983f4c4b2a3d"
+    },
+    {
+      "path": "og-1/collection/tests/study-data.test.mjs",
+      "sha256": "3ef010b0e1bcc15e11ff24ca419e627d29fdd0a5499e4dd727c859f75092f185"
+    },
+    {
+      "path": "og-1/collection/tests/wording-browser-20261016.mjs",
+      "sha256": "0332d9fe7284bc5824f4bdcb7884035cd3c18f280c49730b18e34e7f3de06f6d"
+    },
+    {
+      "path": "og-1/collection/tests/wording-publication-20261016.mjs",
+      "sha256": "c447915843dd301f0e617c24a7594c59823fad68ef9c4b85534fc20efe17fd8b"
+    }
+  ]
+}

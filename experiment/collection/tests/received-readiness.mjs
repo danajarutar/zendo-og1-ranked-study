@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {readFile,writeFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {latestSessions} from '../scripts/researcher.mjs';
+const root=resolve(import.meta.dirname,'..');
+const endpoint='https://zendo-og1-ranked-collector.rutar-danaja.workers.dev';
+const headers={Authorization:'Bearer '+process.env.ZENDO_ADMIN_TOKEN};
+const manifest=JSON.parse(await readFile(resolve(root,'private/production-smoke.json'),'utf8'));
+const records=[];let after=0,snapshot;
+do {const response=await fetch(endpoint+'/admin/export?after='+after+(snapshot===undefined?'':'&snapshot='+snapshot),{headers});assert.equal(response.status,200);const page=await response.json();snapshot=page.snapshot;records.push(...page.records);after=page.next;}while(after!==null);
+for(const row of manifest.participants.filter(r=>r.method==='transport'))assert.deepEqual(records.filter(r=>r.checkpoint.session.participant_code===row.participant).map(r=>r.checkpoint),row.checkpoints);
+const sessions=latestSessions(records);assert.equal(sessions.length,2);assert.ok(sessions.every(s=>s.status==='complete'));
+assert.ok(sessions.every(s=>s.trials.every(t=>t.active_tests.every(r=>r.additional_operations_ranked_text==='  2. Preverim nujnost – čšž\n3. Poiščem novo pravilo  '))));
+const report={verified_at:new Date().toISOString(),collector:endpoint,fictional_sessions:sessions.length,checkpoints:records.length,verbatim_rankings:true,archive_verified:false};
+await writeFile(resolve(root,'test-results/received-readiness.json'),JSON.stringify(report,null,2));console.log(report);

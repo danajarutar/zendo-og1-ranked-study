@@ -1,0 +1,16 @@
+import {spawnSync} from 'node:child_process';
+import {createRequire} from 'node:module';
+import {dirname,resolve} from 'node:path';
+const token=process.env.ZENDO_RANKED_ARCHIVE_TOKEN;
+if(!token?.startsWith('github_pat_'))throw Error('A repository-specific fine-grained token is required.');
+const headers={Authorization:'Bearer '+token,Accept:'application/vnd.github+json'};
+const response=await fetch('https://api.github.com/repos/danajarutar/zendo-og1-ranked-responses',{headers});
+const repo=await response.json();
+if(!response.ok||repo.private!==true)throw Error('The token cannot access the ranked private archive.');
+const old=await fetch('https://api.github.com/repos/danajarutar/zendo-og1-responses',{headers});
+if(old.ok)throw Error('This token can access the original response archive. Select only the new ranked repository.');
+const require=createRequire(import.meta.url);
+const wrangler=resolve(dirname(require.resolve('wrangler/package.json')),'bin/wrangler.js');
+const result=spawnSync(process.execPath,[wrangler,'secret','put','GITHUB_TOKEN','--config','wrangler.jsonc'],{input:token+'\n',encoding:'utf8',windowsHide:true,env:{...process.env,ZENDO_RANKED_ARCHIVE_TOKEN:''}});
+if(result.status!==0)throw Error('Token installation failed; check Cloudflare sign-in.');
+console.log('Repository-specific archive credential installed. Run archive recovery verification before publishing participant links.');
