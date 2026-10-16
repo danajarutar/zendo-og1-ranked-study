@@ -1,0 +1,10 @@
+{
+  "release": "og1-ranked-2026-10-16",
+  "kind": "review",
+  "ruleset": "2026-10-13-og1-no-large",
+  "built_at": "2026-10-16T13:26:59.240Z",
+  "component_sha256": "bb83e13092bcab5f4ca305903e330705c379060c2ca74701322623a86b152cf3",
+  "collector": null,
+  "experiment": "zendo-og1-ranked-preview-1.0.0",
+  "schema": "2.6.0"
+}
