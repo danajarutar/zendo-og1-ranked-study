@@ -480,3 +480,4 @@ input[type="range"] { accent-color: var(--mint-strong); }
 .response-order-instruction { margin: 1rem 0; padding: 1rem 1.25rem; line-height: 1.6; white-space: normal; overflow-wrap: break-word; }
 
 .additional-operations-field { display: grid; gap: .65rem; margin-top: 1.25rem; }
+.additional-operations-field > span { font-weight: 400; }
