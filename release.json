@@ -1,0 +1,10 @@
+{
+  "release": "og1-ranked-2026-10-16",
+  "kind": "production",
+  "ruleset": "2026-10-13-og1-no-large",
+  "built_at": "2026-10-18T06:12:50.652Z",
+  "component_sha256": "bb83e13092bcab5f4ca305903e330705c379060c2ca74701322623a86b152cf3",
+  "collector": "https://zendo-og1-ranked-collector.rutar-danaja.workers.dev",
+  "experiment": "zendo-og1-ranked-1.0.0",
+  "schema": "2.6.0"
+}
