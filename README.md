@@ -8,6 +8,6 @@ Choose the most prominent operation as rank 1; optionally write additional opera
 - [Child preview (no server logging)](https://danajarutar.github.io/zendo-og1-ranked-study/review/?variant=child&stage=full)
 - [Source and setup instructions](experiment/README.md)
 
-Participant collection code and the separate collector are implemented and tested with fictional data. Participant publication is pending connection and verification of the repository-specific encrypted archive credential. No participant links have been issued for this version.
+Participant collection and encrypted backup are connected. Recovery verified on 2026-10-18: all 118 fictional setup checkpoints recovered exactly. Participants use fresh private researcher-issued links to /odrasli/ or /otroci/. The /review/ preview remains local-only.
 
 Source is in experiment/. Compiled preview is in review/. Install dependencies at repository root with npm install, then npm test, npm run typecheck or npm run build:review. Response records, credentials, and private links are excluded from this public repository.

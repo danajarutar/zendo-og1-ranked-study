@@ -16,7 +16,7 @@ The public repository stores source in experiment/ and compiled preview in revie
 
 ## Setup status
 
-Preview and collection builds pass. Separate collector deployed with independent admin and encryption keys. Fictional sessions have been received. Participant publication remains gated on successful encrypted GitHub archive recovery. Connect a fine-grained GitHub token restricted to the ranked response repository (Contents: Read and write) using collection/Connect ranked archive.cmd. Never paste credentials into chat. Then run tests/production-readiness.mjs verify with the locally protected admin and recovery credentials, and publish the production build only after it passes.
+Participant collector and encrypted GitHub backup connected on 2026-10-18 using the existing GitHub credential explicitly authorized by the researcher. All 118 fictional setup checkpoints were exported and recovered exactly from three encrypted files, with no missing or duplicated records. Production participant routes are published separately from OG1. Issue fresh links with collection/scripts/researcher.mjs; do not reuse preview or fictional setup links for real participants.
 
 ## Local use
 
